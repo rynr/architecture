@@ -8,22 +8,21 @@ Accepted
 
 ## Context
 
-As it's hard to understand code, it crucial to keep it clean. This applies in
-all levels of code. Not only the code itself, groups of code, complete
-applications and groups of applications.
+As it's hard to understand code, it is crucial that anybody can easily
+understand the code you're working on. This applies to all levels of code, not
+only the code itself, but groups of code, complete applications and groups of
+applications.
 
 ## Decision
 
-I will always focus on readaility and the ease of understanding any code or
-structure.
+I will always focus on simplicity, readaility and the ease of understanding
+any code or structure.
 
 ## Consequences
 
-Instead of inventing the wheel on documenting how to keep things clean, I
-advise using the guidelines of
-[clean code developer](http://clean-code-developer.com/).  
-But the I put the biggest focus on keeping things as stupid as they are.
-A former colleague once told me that with good code, every part of code is
-exactly where it belongs. So I focus on always using the standard. Anything
-not beeing the standard is hard to understand. Inventing new standards is
-probably not what you need to do to solve your problems.
+I use the guidelines of [clean code developer](http://clean-code-developer.com/).  
+I put the biggest focus on keeping things as simple as possible. Someone once
+told me that with good code, every part of the code is exactly where it
+belongs. So I focus on always using the standard. Anything not beeing the
+standard is hard to understand. Inventing new standards is probably not what
+you need to do to solve your problems.
