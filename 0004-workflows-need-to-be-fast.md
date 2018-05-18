@@ -1,4 +1,4 @@
-# 4. The workflow to make a release needs to be fast
+# 4. Workflows need to be fast
 
 Date: 2018-05-18
 
