@@ -51,8 +51,8 @@ public class CustomerBuilder {
     return this;
   }
 
-  public Company build() {
-    Company result = new Company();
+  public Customer build() {
+    Customer result = new Customer();
     result.setCompanyName(this.companyName);
     result.setAddress(this.address);
     return result;
