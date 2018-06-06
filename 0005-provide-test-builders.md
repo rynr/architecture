@@ -21,7 +21,7 @@ values for tests but can have them easily be overwritten.
 Here's an example:
 
 ``` java
-public class CustomerBuilder {
+public class CustomerTestBuilder {
 
   private String companyName;
   private Address address;
