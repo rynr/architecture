@@ -16,8 +16,10 @@ used.
 
 ## Decision
 
-For `java`, create a `Builder` for each object that creates default
-values for tests but can have them easily be overwritten.  
+For `java`, create a `TestBuilder` for each bean class used in tests.
+The `TestBuilder` creates default values for the objects but can have
+them easily be overwritten.
+
 Here's an example:
 
 ``` java
@@ -26,27 +28,27 @@ public class CustomerTestBuilder {
   private String companyName;
   private Address address;
 
-  public CustomerBuilder() {
+  public CustomerTestBuilder() {
     this.companyName = "ACME Inc.";
-    this.address = new AddressBuilder().build();
+    this.address = new AddressTestBuilder().build();
   }
 
-  public CustomerBuilder withCompanyName(String companyName) {
+  public CustomerTestBuilder withCompanyName(String companyName) {
     this.companyName = companyName;
     return this;
   }
 
-  public CustomerBuilder withoutCompanyName() {
+  public CustomerTestBuilder withoutCompanyName() {
     this.companyName = null;
     return this;
   }
 
-  public CustomerBuilder withAddress(Address address) {
+  public CustomerTestBuilder withAddress(Address address) {
     this.address = address;
     return this;
   }
 
-  public CustomerBuilder withoutAddress() {
+  public CustomerTestBuilder withoutAddress() {
     this.address = null;
     return this;
   }
