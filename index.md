@@ -6,3 +6,4 @@
 * [4. Waiting is waste](0004-waiting-is-waste.md)
 * [5. Provide Test Builders](0005-provide-test-builders.md)
 * [6. Use and close TODOs](0006-use-and-close-todos.md)
+* [7. Use static code analysis](0007-use-static-code-analysis.md)
