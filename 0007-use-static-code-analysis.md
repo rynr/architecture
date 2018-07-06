@@ -21,9 +21,9 @@ Use Static Code Analysis to find violations of standards.
 ## Consequences
 
 For java it's a good idea to use [sonar](https://www.sonarsource.com/),
-for JavaScript, there are [ESLint](http://eslint.org/),
-[JSHint](http://jshint.com/) or [JSLint](http://jslint.com/). For other
-languages, check this
+for JavaScript, there is [sonar](https://www.sonarsource.com/) as well,
+and [ESLint](http://eslint.org/), [JSHint](http://jshint.com/) or
+[JSLint](http://jslint.com/). For other languages, check this
 [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis).
 
 Have the build failing, when there are violations.
