@@ -6,6 +6,8 @@ Date: 2018-05-17
 
 Accepted
 
+Is related to [7. Use static code analysis](0007-use-static-code-analysis.md)
+
 ## Context
 
 As it's hard to understand code, it is crucial that anybody can easily

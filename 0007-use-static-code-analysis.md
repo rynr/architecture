@@ -6,6 +6,8 @@ Date: 2018-07-06
 
 Accepted
 
+Is related to [2. Apply clean code guidelines](0002-apply-clean-code-guidelines.md)
+
 ## Context
 
 You never think of everything. Sticking to standards is a very good
